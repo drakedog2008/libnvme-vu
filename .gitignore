@@ -1,0 +1,9 @@
+build*/
+subprojects/*
+!subprojects/*.wrap
+!subprojects/.clang-tidy
+!subprojects/.clang-format
+
+.vscode
+.idea/
+.devcontainer
